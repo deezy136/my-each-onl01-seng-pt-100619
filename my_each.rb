@@ -15,13 +15,4 @@ end
 # To make the *return-value* the answer you want
 # instead of "=> nil"
 
-def hello(array)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
-  end
-  collection
-end
 
